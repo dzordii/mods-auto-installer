@@ -42,12 +42,24 @@ function realizarInstalacao(instalacoes) {
 // Exemplo de uso:
 const instalacoes = [
   {
-    origem: './mods/fpsplus.rpf',
-    destino: path.join(process.env.LOCALAPPDATA, 'FiveM', 'FiveM.app', 'mods', 'fpsplus.rpf')
+    origem: './mods/styles.rpf',
+    destino: path.join(process.env.LOCALAPPDATA, 'FiveM', 'FiveM.app', 'mods', 'styles.rpf')
   }
   // {
-  //   origem: './outro_arquivo.txt',
-  //   destino: path.join(process.env.LOCALAPPDATA, 'FiveM', 'FiveM.app', 'mods', 'outro_arquivo.txt')
+  //   origem: './mods/hyperleds.rpf',
+  //   destino: path.join(process.env.LOCALAPPDATA, 'FiveM', 'FiveM.app', 'mods', 'hyperleds.rpf')
+  // },
+  // {
+  //   origem: './mods/hypervegetation1.rpf',
+  //   destino: path.join(process.env.LOCALAPPDATA, 'FiveM', 'FiveM.app', 'mods', 'hypervegetation1.rpf')
+  // },
+  // {
+  //   origem: './mods/hypervegetation2.rpf',
+  //   destino: path.join(process.env.LOCALAPPDATA, 'FiveM', 'FiveM.app', 'mods', 'hypervegetation2.rpf')
+  // },
+  // {
+  //   origem: './mods/hypervegetation3.rpf',
+  //   destino: path.join(process.env.LOCALAPPDATA, 'FiveM', 'FiveM.app', 'mods', 'hypervegetation3.rpf')
   // }
 ];
 
