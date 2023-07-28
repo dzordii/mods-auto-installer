@@ -1,0 +1,22 @@
+{
+  "name": "auto-install",
+  "version": "1.0.0",
+  "description": "Auto Instalador de Citizens",
+  "main": "install.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Isaac Dzordi",
+  "license": "ISC",
+  "bin": {
+    "fpsplus_autoinstall": "install.js"
+  },
+  "win": {
+    "icon": "icon.ico"
+  },
+  "devDependencies": {
+    "rcedit": "^3.0.1",
+    "winresourcer": "^0.9.0"
+  },
+  "keywords": []
+}
