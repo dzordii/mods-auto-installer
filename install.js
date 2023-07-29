@@ -51,10 +51,6 @@ const instalacoes = [
     destino: path.join(process.env.LOCALAPPDATA, 'FiveM', 'FiveM.app', 'citizen')
   }
   // {
-  //   origem: './mods/hyperleds.rpf',
-  //   destino: path.join(process.env.LOCALAPPDATA, 'FiveM', 'FiveM.app', 'mods', 'hyperleds.rpf')
-  // },
-  // {
   //   origem: './mods/hypervegetation1.rpf',
   //   destino: path.join(process.env.LOCALAPPDATA, 'FiveM', 'FiveM.app', 'mods', 'hypervegetation1.rpf')
   // },

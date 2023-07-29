@@ -5,7 +5,7 @@
     <postfx_exposure>0.000 0.000</postfx_exposure>
     <postfx_bright_pass_thresh_width>1.000 0.000</postfx_bright_pass_thresh_width>
     <postfx_bright_pass_thresh>1.000 0.000</postfx_bright_pass_thresh>
-    <postfx_intensity_bloom>0.200 0.000</postfx_intensity_bloom>
+    <postfx_intensity_bloom>0.000 0.000</postfx_intensity_bloom>
     <postfx_correct_col_r>0.741 0.000</postfx_correct_col_r>
     <postfx_correct_col_g>0.792 0.000</postfx_correct_col_g>
     <postfx_correct_col_b>1.000 0.000</postfx_correct_col_b>
@@ -34,9 +34,9 @@
     <postfx_scanline_frequency_0>1600.000 0.000</postfx_scanline_frequency_0>
     <postfx_scanline_frequency_1>1700.000 0.000</postfx_scanline_frequency_1>
     <postfx_scanline_speed>0.100 0.000</postfx_scanline_speed>
-    <lens_dist_coeff>-0.000 0.000</lens_dist_coeff>
-    <lens_dist_cube_coeff>-0.000 0.000</lens_dist_cube_coeff>
-    <chrom_aberration_coeff>-0.000 0.000</chrom_aberration_coeff>
+    <lens_dist_coeff>-0.060 0.000</lens_dist_coeff>
+    <lens_dist_cube_coeff>-0.250 0.000</lens_dist_cube_coeff>
+    <chrom_aberration_coeff>0.000 0.000</chrom_aberration_coeff>
     <chrom_aberration_coeff2>0.000 0.000</chrom_aberration_coeff2>
     <blur_vignetting_radius>13.000 0.000</blur_vignetting_radius>
     <blur_vignetting_intensity>1.000 0.000</blur_vignetting_intensity>
@@ -55,8 +55,8 @@
     <light_artificial_int_up_intensity>0.550 0.000</light_artificial_int_up_intensity>
     <postfx_bright_pass_thresh_width>1.000 0.000</postfx_bright_pass_thresh_width>
     <postfx_bright_pass_thresh>1.000 0.000</postfx_bright_pass_thresh>
-    <postfx_intensity_bloom>0.500 0.000</postfx_intensity_bloom>
-    <fog_start>1.000 20.000</fog_start>
+    <postfx_intensity_bloom>0.100 0.000</postfx_intensity_bloom>
+    <fog_start>0.000 0.000</fog_start>
     <fog_haze_col_r>0.561 1.000</fog_haze_col_r>
     <fog_haze_col_g>0.549 1.000</fog_haze_col_g>
     <fog_haze_col_b>0.522 1.000</fog_haze_col_b>
@@ -121,7 +121,7 @@
     <postfx_bright_pass_thresh_width>1.000 0.000</postfx_bright_pass_thresh_width>
     <postfx_bright_pass_thresh>1.000 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>0.400 0.000</postfx_intensity_bloom>
-    <fog_start>1.000 8.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <fog_haze_col_r>0.561 1.000</fog_haze_col_r>
     <fog_haze_col_g>0.549 1.000</fog_haze_col_g>
     <fog_haze_col_b>0.522 1.000</fog_haze_col_b>
@@ -151,8 +151,8 @@
     <fog_haze_col_r>0.020 1.000</fog_haze_col_r>
     <fog_haze_col_g>0.012 1.000</fog_haze_col_g>
     <fog_haze_col_b>0.000 1.000</fog_haze_col_b>
-    <fog_haze_density>300.000 320.000</fog_haze_density>
-    <fog_haze_hdr>0.100 1.000</fog_haze_hdr>
+    <fog_haze_density>200.000 220.000</fog_haze_density>
+    <fog_haze_hdr>1.000 0.000</fog_haze_hdr>
     <natural_ambient_multiplier>0.000 0.000</natural_ambient_multiplier>
     <artificial_int_ambient_multiplier>0.600 0.000</artificial_int_ambient_multiplier>
   </modifier>
@@ -169,12 +169,12 @@
     <postfx_bright_pass_thresh_width>0.700 0.000</postfx_bright_pass_thresh_width>
     <postfx_bright_pass_thresh>0.700 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>0.610 0.000</postfx_intensity_bloom>
-    <fog_start>5.000 25.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <fog_near_col_r>0.725 1.000</fog_near_col_r>
     <fog_near_col_g>0.663 1.000</fog_near_col_g>
     <fog_near_col_b>0.600 1.000</fog_near_col_b>
     <fog_near_col_a>0.498 1.000</fog_near_col_a>
-    <fog_density>1.000 2.000</fog_density>
+    <fog_density>0.000 0.000</fog_density>
     <fog_haze_col_r>0.541 1.000</fog_haze_col_r>
     <fog_haze_col_g>0.533 1.000</fog_haze_col_g>
     <fog_haze_col_b>0.427 1.000</fog_haze_col_b>
@@ -194,12 +194,12 @@
     <postfx_bright_pass_thresh_width>0.700 0.000</postfx_bright_pass_thresh_width>
     <postfx_bright_pass_thresh>0.700 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>0.610 0.000</postfx_intensity_bloom>
-    <fog_start>5.000 25.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <fog_near_col_r>0.725 1.000</fog_near_col_r>
     <fog_near_col_g>0.663 1.000</fog_near_col_g>
     <fog_near_col_b>0.600 1.000</fog_near_col_b>
     <fog_near_col_a>0.498 1.000</fog_near_col_a>
-    <fog_density>1.000 2.000</fog_density>
+    <fog_density>0.000 0.000</fog_density>
     <fog_haze_col_r>0.541 1.000</fog_haze_col_r>
     <fog_haze_col_g>0.533 1.000</fog_haze_col_g>
     <fog_haze_col_b>0.427 1.000</fog_haze_col_b>
@@ -289,7 +289,7 @@
     <postfx_exposure>-1.000 0.000</postfx_exposure>
     <postfx_bright_pass_thresh_width>0.350 0.000</postfx_bright_pass_thresh_width>
     <postfx_bright_pass_thresh>0.350 0.000</postfx_bright_pass_thresh>
-    <postfx_intensity_bloom>1.500 0.000</postfx_intensity_bloom>
+    <postfx_intensity_bloom>0.500 0.000</postfx_intensity_bloom>
     <fog_haze_col_r>0.059 1.000</fog_haze_col_r>
     <fog_haze_col_g>0.008 1.000</fog_haze_col_g>
     <fog_haze_col_b>0.043 1.000</fog_haze_col_b>
@@ -349,7 +349,7 @@
     <postfx_bright_pass_thresh>0.400 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>1.000 0.000</postfx_intensity_bloom>
     <lens_artefacts_intensity>0.300 0.000</lens_artefacts_intensity>
-    <fog_start>1.000 10.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <fog_near_col_r>0.286 1.000</fog_near_col_r>
     <fog_near_col_g>0.122 1.000</fog_near_col_g>
     <fog_near_col_b>0.000 1.000</fog_near_col_b>
@@ -366,7 +366,7 @@
     <fog_east_col_g>0.329 1.000</fog_east_col_g>
     <fog_east_col_b>0.000 1.000</fog_east_col_b>
     <fog_east_col_a>1.000 1.000</fog_east_col_a>
-    <fog_density>20.000 20.000</fog_density>
+    <fog_density>0.000 0.000</fog_density>
     <fog_falloff>250.000 250.000</fog_falloff>
     <fog_base_height>35.000 35.000</fog_base_height>
     <fog_alpha>1.000 1.000</fog_alpha>
@@ -485,7 +485,7 @@
     <postfx_vignetting_col_r>0.000 0.000</postfx_vignetting_col_r>
     <postfx_vignetting_col_g>0.000 0.000</postfx_vignetting_col_g>
     <postfx_vignetting_col_b>0.000 0.000</postfx_vignetting_col_b>
-    <fog_start>5000.000 3.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <fog_near_col_r>0.012 1.000</fog_near_col_r>
     <fog_near_col_g>0.604 1.000</fog_near_col_g>
     <fog_near_col_b>1.000 1.000</fog_near_col_b>
@@ -498,7 +498,7 @@
     <fog_east_col_g>0.576 1.000</fog_east_col_g>
     <fog_east_col_b>0.773 1.000</fog_east_col_b>
     <fog_east_col_a>0.000 1.000</fog_east_col_a>
-    <fog_density>0.000 1.000</fog_density>
+    <fog_density>0.000 0.000</fog_density>
     <fog_falloff>0.500 0.500</fog_falloff>
     <fog_base_height>0.000 0.000</fog_base_height>
     <fog_alpha>0.000 0.167</fog_alpha>
@@ -528,7 +528,7 @@
     <postfx_bright_pass_thresh>0.500 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>0.350 0.000</postfx_intensity_bloom>
     <dir_shadow_num_cascades>3.000 0.000</dir_shadow_num_cascades>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <reflection_lod_range_start>0.000 0.000</reflection_lod_range_start>
     <reflection_lod_range_end>0.000 0.000</reflection_lod_range_end>
     <reflection_slod_range_start>0.000 0.000</reflection_slod_range_start>
@@ -547,13 +547,13 @@
     <light_artificial_int_up_col_g>0.820 1.000</light_artificial_int_up_col_g>
     <light_artificial_int_up_col_b>0.757 1.000</light_artificial_int_up_col_b>
     <light_artificial_int_up_intensity>0.200 0.000</light_artificial_int_up_intensity>
-    <ssao_inten>5.000 0.000</ssao_inten>
+    <ssao_inten>0.000 0.000</ssao_inten>
     <postfx_exposure>-0.900 0.000</postfx_exposure>
     <postfx_bright_pass_thresh_width>0.300 0.000</postfx_bright_pass_thresh_width>
     <postfx_bright_pass_thresh>0.700 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>0.500 0.000</postfx_intensity_bloom>
-    <dir_shadow_num_cascades>3.000 0.000</dir_shadow_num_cascades>
-    <fog_start>73.000 73.000</fog_start>
+    <dir_shadow_num_cascades>2.000 0.000</dir_shadow_num_cascades>
+    <fog_start>0.000 0.000</fog_start>
     <reflection_tweak_interior_amb>15.000 0.000</reflection_tweak_interior_amb>
     <temperature>20.000 0.000</temperature>
     <natural_ambient_multiplier>0.150 0.000</natural_ambient_multiplier>
@@ -575,14 +575,14 @@
     <postfx_bright_pass_thresh>0.700 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>0.500 0.000</postfx_intensity_bloom>
     <dir_shadow_num_cascades>3.000 0.000</dir_shadow_num_cascades>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <reflection_lod_range_start>0.000 0.000</reflection_lod_range_start>
     <reflection_lod_range_end>0.000 0.000</reflection_lod_range_end>
     <reflection_slod_range_start>0.000 0.000</reflection_slod_range_start>
     <reflection_slod_range_end>0.000 0.000</reflection_slod_range_end>
     <reflection_interior_range>18.000 0.000</reflection_interior_range>
     <reflection_tweak_interior_amb>15.000 0.000</reflection_tweak_interior_amb>
-    <far_clip>1500.000 1500.000</far_clip>
+    <far_clip>1000.000 1000.000</far_clip>
     <temperature>20.000 0.000</temperature>
     <natural_ambient_multiplier>0.150 0.000</natural_ambient_multiplier>
     <artificial_int_ambient_multiplier>1.000 0.000</artificial_int_ambient_multiplier>
@@ -637,7 +637,7 @@
     <environmental_blur_in>5.000 0.000</environmental_blur_in>
     <environmental_blur_out>50.000 0.000</environmental_blur_out>
     <environmental_blur_size>5.000 0.000</environmental_blur_size>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <reflection_tweak_interior_amb>20.288 0.000</reflection_tweak_interior_amb>
     <far_clip>0.000 100.000</far_clip>
     <temperature>30.000 0.000</temperature>
@@ -658,7 +658,7 @@
     <postfx_bright_pass_thresh_width>0.500 0.000</postfx_bright_pass_thresh_width>
     <postfx_bright_pass_thresh>0.500 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>0.350 0.000</postfx_intensity_bloom>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <natural_ambient_multiplier>0.200 0.000</natural_ambient_multiplier>
     <artificial_int_ambient_multiplier>0.700 0.000</artificial_int_ambient_multiplier>
   </modifier>
@@ -666,7 +666,7 @@
     <postfx_bright_pass_thresh_width>0.500 0.000</postfx_bright_pass_thresh_width>
     <postfx_bright_pass_thresh>0.500 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>0.500 0.000</postfx_intensity_bloom>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <natural_ambient_multiplier>0.100 0.000</natural_ambient_multiplier>
     <artificial_int_ambient_multiplier>0.500 0.000</artificial_int_ambient_multiplier>
   </modifier>
@@ -689,7 +689,7 @@
     <postfx_bright_pass_thresh_width>0.700 0.000</postfx_bright_pass_thresh_width>
     <postfx_bright_pass_thresh>0.700 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>1.000 0.000</postfx_intensity_bloom>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <natural_ambient_multiplier>0.200 0.000</natural_ambient_multiplier>
     <artificial_int_ambient_multiplier>0.500 0.000</artificial_int_ambient_multiplier>
     <lod_mult_hd>0.100 0.000</lod_mult_hd>
@@ -797,7 +797,7 @@
     <postfx_bright_pass_thresh_width>0.700 0.000</postfx_bright_pass_thresh_width>
     <postfx_bright_pass_thresh>0.700 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>0.350 0.000</postfx_intensity_bloom>
-    <fog_start>1.000 25.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <fog_haze_col_r>0.725 1.000</fog_haze_col_r>
     <fog_haze_col_g>0.737 1.000</fog_haze_col_g>
     <fog_haze_col_b>0.631 1.000</fog_haze_col_b>
@@ -822,7 +822,7 @@
     <postfx_bright_pass_thresh_width>0.700 0.000</postfx_bright_pass_thresh_width>
     <postfx_bright_pass_thresh>0.700 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>0.350 0.000</postfx_intensity_bloom>
-    <fog_start>1.000 25.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <fog_haze_col_r>0.725 1.000</fog_haze_col_r>
     <fog_haze_col_g>0.737 1.000</fog_haze_col_g>
     <fog_haze_col_b>0.631 1.000</fog_haze_col_b>
@@ -892,7 +892,7 @@
     <postfx_bright_pass_thresh_width>0.700 0.000</postfx_bright_pass_thresh_width>
     <postfx_bright_pass_thresh>0.700 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>0.250 0.000</postfx_intensity_bloom>
-    <fog_start>1.000 8.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <fog_haze_col_r>0.561 1.000</fog_haze_col_r>
     <fog_haze_col_g>0.549 1.000</fog_haze_col_g>
     <fog_haze_col_b>0.522 1.000</fog_haze_col_b>
@@ -919,7 +919,7 @@
     <postfx_bright_pass_thresh_width>0.700 0.000</postfx_bright_pass_thresh_width>
     <postfx_bright_pass_thresh>0.700 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>0.350 0.000</postfx_intensity_bloom>
-    <fog_start>1.000 25.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <fog_haze_col_r>0.725 1.000</fog_haze_col_r>
     <fog_haze_col_g>0.737 1.000</fog_haze_col_g>
     <fog_haze_col_b>0.631 1.000</fog_haze_col_b>
@@ -1017,7 +1017,7 @@
     <postfx_bright_pass_thresh_width>0.700 0.000</postfx_bright_pass_thresh_width>
     <postfx_bright_pass_thresh>0.700 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>0.350 0.000</postfx_intensity_bloom>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <reflection_lod_range_start>0.000 0.000</reflection_lod_range_start>
     <reflection_lod_range_end>5.000 0.000</reflection_lod_range_end>
     <reflection_slod_range_start>5.000 0.000</reflection_slod_range_start>
@@ -1049,7 +1049,7 @@
     <postfx_bright_pass_thresh_width>0.300 0.000</postfx_bright_pass_thresh_width>
     <postfx_bright_pass_thresh>0.300 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>0.500 0.000</postfx_intensity_bloom>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <reflection_tweak_interior_amb>10.000 0.000</reflection_tweak_interior_amb>
     <far_clip>0.000 200.000</far_clip>
     <temperature>20.000 0.000</temperature>
@@ -1078,7 +1078,7 @@
     <ssao_inten>4.000 0.000</ssao_inten>
     <postfx_bright_pass_thresh>0.500 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>0.500 0.000</postfx_intensity_bloom>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <reflection_interior_range>30.000 0.000</reflection_interior_range>
     <reflection_tweak_interior_amb>25.000 0.000</reflection_tweak_interior_amb>
     <far_clip>0.000 80.000</far_clip>
@@ -1102,7 +1102,7 @@
     <postfx_bright_pass_thresh_width>0.700 0.000</postfx_bright_pass_thresh_width>
     <postfx_bright_pass_thresh>0.700 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>0.350 0.000</postfx_intensity_bloom>
-    <fog_start>1.000 20.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <fog_haze_col_r>0.725 1.000</fog_haze_col_r>
     <fog_haze_col_g>0.737 1.000</fog_haze_col_g>
     <fog_haze_col_b>0.631 1.000</fog_haze_col_b>
@@ -1127,7 +1127,7 @@
     <postfx_bright_pass_thresh_width>0.500 0.000</postfx_bright_pass_thresh_width>
     <postfx_bright_pass_thresh>0.500 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>0.500 0.000</postfx_intensity_bloom>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <far_clip>0.000 180.000</far_clip>
     <natural_ambient_multiplier>0.000 0.000</natural_ambient_multiplier>
     <artificial_int_ambient_multiplier>0.478 0.000</artificial_int_ambient_multiplier>
@@ -1156,7 +1156,7 @@
     <dir_shadow_num_cascades>3.000 0.000</dir_shadow_num_cascades>
     <dir_shadow_distance_multiplier>0.600 0.000</dir_shadow_distance_multiplier>
     <water_reflection_far_clip>0.000 0.000</water_reflection_far_clip>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <reflection_lod_range_start>0.000 0.000</reflection_lod_range_start>
     <reflection_lod_range_end>0.000 0.000</reflection_lod_range_end>
     <reflection_slod_range_start>0.000 0.000</reflection_slod_range_start>
@@ -1193,7 +1193,7 @@
     <postfx_bright_pass_thresh_width>0.600 0.000</postfx_bright_pass_thresh_width>
     <postfx_bright_pass_thresh>0.600 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>1.000 0.000</postfx_intensity_bloom>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <reflection_lod_range_start>0.000 0.000</reflection_lod_range_start>
     <reflection_lod_range_end>0.000 0.000</reflection_lod_range_end>
     <reflection_slod_range_start>0.000 0.000</reflection_slod_range_start>
@@ -1220,7 +1220,7 @@
     <postfx_bright_pass_thresh_width>0.600 0.000</postfx_bright_pass_thresh_width>
     <postfx_bright_pass_thresh>0.600 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>1.000 0.000</postfx_intensity_bloom>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <reflection_lod_range_start>0.000 0.000</reflection_lod_range_start>
     <reflection_lod_range_end>0.000 0.000</reflection_lod_range_end>
     <reflection_slod_range_start>0.000 0.000</reflection_slod_range_start>
@@ -1249,7 +1249,7 @@
     <postfx_bright_pass_thresh>0.700 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>0.350 0.000</postfx_intensity_bloom>
     <lens_artefacts_intensity>0.100 0.000</lens_artefacts_intensity>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <reflection_lod_range_start>0.000 0.000</reflection_lod_range_start>
     <reflection_lod_range_end>0.000 0.000</reflection_lod_range_end>
     <reflection_slod_range_start>0.000 0.000</reflection_slod_range_start>
@@ -1278,7 +1278,7 @@
     <postfx_bright_pass_thresh>0.700 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>0.500 0.000</postfx_intensity_bloom>
     <lens_artefacts_intensity>0.300 0.000</lens_artefacts_intensity>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <reflection_lod_range_start>0.000 0.000</reflection_lod_range_start>
     <reflection_lod_range_end>0.000 0.000</reflection_lod_range_end>
     <reflection_slod_range_start>0.000 0.000</reflection_slod_range_start>
@@ -1303,7 +1303,7 @@
     <postfx_bright_pass_thresh_width>0.700 0.000</postfx_bright_pass_thresh_width>
     <postfx_bright_pass_thresh>0.700 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>0.350 0.000</postfx_intensity_bloom>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <reflection_lod_range_start>0.000 0.000</reflection_lod_range_start>
     <reflection_lod_range_end>0.000 0.000</reflection_lod_range_end>
     <reflection_slod_range_start>0.000 0.000</reflection_slod_range_start>
@@ -1331,7 +1331,7 @@
     <postfx_bright_pass_thresh>0.700 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>0.250 0.000</postfx_intensity_bloom>
     <lens_artefacts_intensity>0.100 0.000</lens_artefacts_intensity>
-    <fog_start>153.000 153.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <reflection_lod_range_start>0.000 0.000</reflection_lod_range_start>
     <reflection_lod_range_end>50.000 0.000</reflection_lod_range_end>
     <reflection_slod_range_start>150.000 0.000</reflection_slod_range_start>
@@ -1356,7 +1356,7 @@
     <postfx_bright_pass_thresh_width>0.700 0.000</postfx_bright_pass_thresh_width>
     <postfx_bright_pass_thresh>0.700 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>0.350 0.000</postfx_intensity_bloom>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <far_clip>0.000 200.000</far_clip>
     <natural_ambient_multiplier>0.000 0.000</natural_ambient_multiplier>
     <artificial_int_ambient_multiplier>0.700 0.000</artificial_int_ambient_multiplier>
@@ -1381,7 +1381,7 @@
     <postfx_bright_pass_thresh_width>0.700 0.000</postfx_bright_pass_thresh_width>
     <postfx_bright_pass_thresh>0.700 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>0.350 0.000</postfx_intensity_bloom>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <reflection_lod_range_start>0.000 0.000</reflection_lod_range_start>
     <reflection_lod_range_end>5.000 0.000</reflection_lod_range_end>
     <reflection_slod_range_start>5.000 0.000</reflection_slod_range_start>
@@ -1412,7 +1412,7 @@
     <postfx_bright_pass_thresh_width>0.500 0.000</postfx_bright_pass_thresh_width>
     <postfx_bright_pass_thresh>0.500 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>0.500 0.000</postfx_intensity_bloom>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <reflection_lod_range_start>0.000 0.000</reflection_lod_range_start>
     <reflection_lod_range_end>5.000 0.000</reflection_lod_range_end>
     <reflection_slod_range_start>5.000 0.000</reflection_slod_range_start>
@@ -1456,7 +1456,7 @@
     <light_artificial_int_up_col_g>0.859 1.000</light_artificial_int_up_col_g>
     <light_artificial_int_up_col_b>0.878 1.000</light_artificial_int_up_col_b>
     <light_artificial_int_up_intensity>1.500 0.000</light_artificial_int_up_intensity>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
   </modifier>
   <modifier name="stc_coroners" numMods="14" userFlags="0">
     <light_artificial_int_down_col_r>0.984 1.000</light_artificial_int_down_col_r>
@@ -1471,7 +1471,7 @@
     <postfx_bright_pass_thresh_width>0.300 0.000</postfx_bright_pass_thresh_width>
     <postfx_bright_pass_thresh>0.300 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>2.000 0.000</postfx_intensity_bloom>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <reflection_tweak_interior_amb>5.000 0.000</reflection_tweak_interior_amb>
   </modifier>
   <modifier name="stc_trevors" numMods="47" userFlags="0">
@@ -1502,7 +1502,7 @@
     <postfx_intensity_bloom>0.250 0.000</postfx_intensity_bloom>
     <dir_shadow_num_cascades>3.000 0.000</dir_shadow_num_cascades>
     <dir_shadow_distance_multiplier>0.330 0.000</dir_shadow_distance_multiplier>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <reflection_lod_range_start>-1.000 0.000</reflection_lod_range_start>
     <reflection_lod_range_end>-1.000 0.000</reflection_lod_range_end>
     <reflection_slod_range_start>-1.000 0.000</reflection_slod_range_start>
@@ -1571,7 +1571,7 @@
     <dir_shadow_distance_multiplier>0.600 0.000</dir_shadow_distance_multiplier>
     <water_reflection>0.000 0.000</water_reflection>
     <water_reflection_far_clip>0.000 0.000</water_reflection_far_clip>
-    <fog_start>50.000 50.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <reflection_lod_range_start>0.000 0.000</reflection_lod_range_start>
     <reflection_lod_range_end>5.000 0.000</reflection_lod_range_end>
     <reflection_slod_range_start>5.000 0.000</reflection_slod_range_start>
@@ -1600,7 +1600,7 @@
     <postfx_intensity_bloom>1.000 0.000</postfx_intensity_bloom>
     <dir_shadow_num_cascades>3.000 0.000</dir_shadow_num_cascades>
     <dir_shadow_distance_multiplier>0.570 0.000</dir_shadow_distance_multiplier>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <reflection_lod_range_start>0.000 0.000</reflection_lod_range_start>
     <reflection_lod_range_end>0.000 0.000</reflection_lod_range_end>
     <reflection_slod_range_start>0.000 0.000</reflection_slod_range_start>
@@ -1626,7 +1626,7 @@
     <postfx_bright_pass_thresh_width>0.070 0.000</postfx_bright_pass_thresh_width>
     <postfx_bright_pass_thresh>0.700 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>1.000 0.000</postfx_intensity_bloom>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <reflection_lod_range_start>0.000 0.000</reflection_lod_range_start>
     <reflection_lod_range_end>5.000 0.000</reflection_lod_range_end>
     <reflection_slod_range_start>5.000 0.000</reflection_slod_range_start>
@@ -1659,7 +1659,7 @@
     <postfx_bright_pass_thresh>0.900 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>0.350 0.000</postfx_intensity_bloom>
     <dir_shadow_num_cascades>3.000 0.000</dir_shadow_num_cascades>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <reflection_lod_range_start>0.000 0.000</reflection_lod_range_start>
     <reflection_lod_range_end>0.000 0.000</reflection_lod_range_end>
     <reflection_slod_range_start>0.000 0.000</reflection_slod_range_start>
@@ -1695,7 +1695,7 @@
     <postfx_intensity_bloom>0.250 0.000</postfx_intensity_bloom>
     <dir_shadow_num_cascades>4.000 0.000</dir_shadow_num_cascades>
     <dir_shadow_distance_multiplier>0.700 0.000</dir_shadow_distance_multiplier>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <reflection_lod_range_start>0.000 0.000</reflection_lod_range_start>
     <reflection_lod_range_end>5.000 0.000</reflection_lod_range_end>
     <reflection_slod_range_start>5.000 0.000</reflection_slod_range_start>
@@ -1728,7 +1728,7 @@
     <postfx_bright_pass_thresh_width>0.640 0.000</postfx_bright_pass_thresh_width>
     <postfx_bright_pass_thresh>0.641 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>1.000 0.000</postfx_intensity_bloom>
-    <fog_start>1.000 10.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <fog_haze_col_r>0.522 1.000</fog_haze_col_r>
     <fog_haze_col_g>0.329 1.000</fog_haze_col_g>
     <fog_haze_col_b>0.431 1.000</fog_haze_col_b>
@@ -1765,9 +1765,9 @@
     <postfx_bright_pass_thresh>0.700 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>0.200 0.000</postfx_intensity_bloom>
     <lens_artefacts_intensity>0.100 0.000</lens_artefacts_intensity>
-    <dir_shadow_num_cascades>4.000 0.000</dir_shadow_num_cascades>
+    <dir_shadow_num_cascades>3.000 0.000</dir_shadow_num_cascades>
     <dir_shadow_distance_multiplier>0.500 0.000</dir_shadow_distance_multiplier>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <reflection_lod_range_start>0.000 0.000</reflection_lod_range_start>
     <reflection_lod_range_end>5.000 0.000</reflection_lod_range_end>
     <reflection_slod_range_start>5.000 0.000</reflection_slod_range_start>
@@ -1828,7 +1828,7 @@
     <postfx_bright_pass_thresh_width>0.600 0.000</postfx_bright_pass_thresh_width>
     <postfx_bright_pass_thresh>0.600 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>0.750 0.000</postfx_intensity_bloom>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <reflection_lod_range_start>0.000 0.000</reflection_lod_range_start>
     <reflection_lod_range_end>5.000 0.000</reflection_lod_range_end>
     <reflection_slod_range_start>5.000 0.000</reflection_slod_range_start>
@@ -1855,7 +1855,7 @@
     <postfx_bright_pass_thresh_width>0.600 0.000</postfx_bright_pass_thresh_width>
     <postfx_bright_pass_thresh>0.600 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>0.750 0.000</postfx_intensity_bloom>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <reflection_lod_range_start>0.000 0.000</reflection_lod_range_start>
     <reflection_lod_range_end>5.000 0.000</reflection_lod_range_end>
     <reflection_slod_range_start>5.000 0.000</reflection_slod_range_start>
@@ -1879,7 +1879,7 @@
     <postfx_bright_pass_thresh>0.600 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>0.200 0.000</postfx_intensity_bloom>
     <lens_artefacts_intensity>0.050 0.000</lens_artefacts_intensity>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <reflection_lod_range_start>0.000 0.000</reflection_lod_range_start>
     <reflection_lod_range_end>0.000 0.000</reflection_lod_range_end>
     <reflection_slod_range_start>0.000 0.000</reflection_slod_range_start>
@@ -2085,7 +2085,7 @@
     <postfx_intensity_bloom>1.000 0.000</postfx_intensity_bloom>
     <lens_artefacts_intensity>0.150 0.000</lens_artefacts_intensity>
     <dir_shadow_num_cascades>3.000 0.000</dir_shadow_num_cascades>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <reflection_lod_range_start>0.000 0.000</reflection_lod_range_start>
     <reflection_lod_range_end>5.000 0.000</reflection_lod_range_end>
     <reflection_slod_range_start>5.000 0.000</reflection_slod_range_start>
@@ -2142,7 +2142,7 @@
     <postfx_bright_pass_thresh_width>0.400 0.000</postfx_bright_pass_thresh_width>
     <postfx_bright_pass_thresh>0.400 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>1.000 0.000</postfx_intensity_bloom>
-    <fog_start>153.000 153.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <reflection_interior_range>50.000 0.000</reflection_interior_range>
     <reflection_tweak_interior_amb>12.096 0.000</reflection_tweak_interior_amb>
     <natural_ambient_multiplier>0.000 0.000</natural_ambient_multiplier>
@@ -2225,7 +2225,7 @@
     <postfx_bright_pass_thresh>0.900 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>0.200 0.000</postfx_intensity_bloom>
     <lens_artefacts_intensity>0.100 0.000</lens_artefacts_intensity>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <reflection_lod_range_start>0.000 0.000</reflection_lod_range_start>
     <reflection_lod_range_end>50.000 0.000</reflection_lod_range_end>
     <reflection_slod_range_start>50.000 0.000</reflection_slod_range_start>
@@ -2336,7 +2336,7 @@
     <postfx_vignetting_intensity>0.000 0.000</postfx_vignetting_intensity>
     <dir_shadow_num_cascades>3.000 0.000</dir_shadow_num_cascades>
     <dir_shadow_distance_multiplier>0.500 0.000</dir_shadow_distance_multiplier>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <reflection_lod_range_start>0.000 0.000</reflection_lod_range_start>
     <reflection_lod_range_end>5.000 0.000</reflection_lod_range_end>
     <reflection_slod_range_start>5.000 0.000</reflection_slod_range_start>
@@ -2367,7 +2367,7 @@
     <postfx_bright_pass_thresh_width>1.000 0.000</postfx_bright_pass_thresh_width>
     <postfx_bright_pass_thresh>1.000 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>0.500 0.000</postfx_intensity_bloom>
-    <fog_start>1.000 3.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <fog_near_col_r>0.133 1.000</fog_near_col_r>
     <fog_near_col_g>0.071 1.000</fog_near_col_g>
     <fog_near_col_b>0.012 1.000</fog_near_col_b>
@@ -2380,7 +2380,7 @@
     <fog_east_col_g>0.114 1.000</fog_east_col_g>
     <fog_east_col_b>0.012 1.000</fog_east_col_b>
     <fog_east_col_a>0.000 1.000</fog_east_col_a>
-    <fog_density>1.000 1.000</fog_density>
+    <fog_density>0.000 0.000</fog_density>
     <fog_falloff>0.500 0.500</fog_falloff>
     <fog_base_height>0.000 0.000</fog_base_height>
     <fog_alpha>1.000 1.000</fog_alpha>
@@ -2452,7 +2452,7 @@
     <artificial_int_ambient_multiplier>0.500 0.000</artificial_int_ambient_multiplier>
     <no_weather_fx>1.000 0.000</no_weather_fx>
     <no_gpu_fx>1.000 0.000</no_gpu_fx>
-    <no_rain>1.000 0.000</no_rain>
+    <no_rain>0.000 0.000</no_rain>
   </modifier>
   <modifier name="lab_none" numMods="19" userFlags="0">
     <light_directional_amb_col_r>1.000 1.000</light_directional_amb_col_r>
@@ -2496,7 +2496,7 @@
     <postfx_bright_pass_thresh_width>0.400 0.000</postfx_bright_pass_thresh_width>
     <postfx_bright_pass_thresh>0.400 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>1.000 0.000</postfx_intensity_bloom>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <temperature>20.000 0.000</temperature>
     <natural_ambient_multiplier>0.000 0.000</natural_ambient_multiplier>
     <artificial_int_ambient_multiplier>0.300 0.000</artificial_int_ambient_multiplier>
@@ -2518,7 +2518,7 @@
     <postfx_bright_pass_thresh_width>0.400 0.000</postfx_bright_pass_thresh_width>
     <postfx_bright_pass_thresh>0.400 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>1.000 0.000</postfx_intensity_bloom>
-    <fog_start>1.000 8.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <fog_haze_col_r>0.259 1.000</fog_haze_col_r>
     <fog_haze_col_g>0.231 1.000</fog_haze_col_g>
     <fog_haze_col_b>0.204 1.000</fog_haze_col_b>
@@ -2528,7 +2528,7 @@
     <natural_ambient_multiplier>0.000 0.000</natural_ambient_multiplier>
     <artificial_int_ambient_multiplier>0.700 0.000</artificial_int_ambient_multiplier>
   </modifier>
-  <modifier name="MP_Garage_L" numMods="44" userFlags="0">
+  <modifier name="MP_Garage_L" numMods="43" userFlags="0">
     <light_dir_mult>0.000 1.000</light_dir_mult>
     <light_artificial_int_down_col_r>0.875 1.000</light_artificial_int_down_col_r>
     <light_artificial_int_down_col_g>0.910 1.000</light_artificial_int_down_col_g>
@@ -2565,11 +2565,10 @@
     <postfx_bright_pass_thresh_width>0.500 0.000</postfx_bright_pass_thresh_width>
     <postfx_bright_pass_thresh>0.500 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>1.000 0.000</postfx_intensity_bloom>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <reflection_tweak_interior_amb>1.000 0.000</reflection_tweak_interior_amb>
     <reflection_tweak_emissive>0.750 0.000</reflection_tweak_emissive>
     <far_clip>500.000 500.000</far_clip>
-    <temperature>20.000 0.000</temperature>
     <natural_ambient_multiplier>0.000 0.000</natural_ambient_multiplier>
     <artificial_int_ambient_multiplier>1.000 0.000</artificial_int_ambient_multiplier>
     <fog_cut_off>0.000 0.000</fog_cut_off>
@@ -2605,7 +2604,7 @@
     <postfx_bright_pass_thresh_width>0.500 0.000</postfx_bright_pass_thresh_width>
     <postfx_bright_pass_thresh>0.500 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>0.500 0.000</postfx_intensity_bloom>
-    <fog_start>100.000 100.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <far_clip>5000.000 5000.000</far_clip>
     <temperature>20.000 0.000</temperature>
     <natural_ambient_multiplier>0.000 0.000</natural_ambient_multiplier>
@@ -2638,7 +2637,7 @@
     <postfx_intensity_bloom>0.300 0.000</postfx_intensity_bloom>
     <lens_artefacts_intensity>0.100 0.000</lens_artefacts_intensity>
     <dir_shadow_num_cascades>3.000 0.000</dir_shadow_num_cascades>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <reflection_lod_range_start>0.000 0.000</reflection_lod_range_start>
     <reflection_lod_range_end>5.000 0.000</reflection_lod_range_end>
     <reflection_slod_range_start>5.000 0.000</reflection_slod_range_start>
@@ -2679,7 +2678,7 @@
     <natural_ambient_multiplier>0.425 0.000</natural_ambient_multiplier>
     <artificial_int_ambient_multiplier>0.000 0.000</artificial_int_ambient_multiplier>
   </modifier>
-  <modifier name="MPApartHigh" numMods="53" userFlags="0">
+  <modifier name="MPApartHigh" numMods="56" userFlags="0">
     <light_amb_down_wrap>0.400 0.000</light_amb_down_wrap>
     <light_artificial_int_down_col_r>1.000 1.000</light_artificial_int_down_col_r>
     <light_artificial_int_down_col_g>0.890 1.000</light_artificial_int_down_col_g>
@@ -2699,8 +2698,6 @@
     <postfx_bright_pass_thresh_width>0.900 0.000</postfx_bright_pass_thresh_width>
     <postfx_bright_pass_thresh>0.900 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>0.350 0.000</postfx_intensity_bloom>
-    <dir_shadow_num_cascades>4.000 0.000</dir_shadow_num_cascades>
-    <dir_shadow_distance_multiplier>4.000 0.000</dir_shadow_distance_multiplier>
     <water_reflection_lod_range_enabled>0.000 0.000</water_reflection_lod_range_enabled>
     <water_reflection_lod_range_hd_start>-1.000 0.000</water_reflection_lod_range_hd_start>
     <water_reflection_lod_range_hd_end>-1.000 0.000</water_reflection_lod_range_hd_end>
@@ -2716,7 +2713,7 @@
     <water_reflection_lod_range_slod3_end>-1.000 0.000</water_reflection_lod_range_slod3_end>
     <water_reflection_lod_range_slod4_start>-1.000 0.000</water_reflection_lod_range_slod4_start>
     <water_reflection_lod_range_slod4_end>-1.000 0.000</water_reflection_lod_range_slod4_end>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <reflection_lod_range_start>-1.000 0.000</reflection_lod_range_start>
     <reflection_lod_range_end>-1.000 0.000</reflection_lod_range_end>
     <reflection_slod_range_start>0.000 0.000</reflection_slod_range_start>
@@ -2733,6 +2730,11 @@
     <light_falloff_mult>1.000 0.000</light_falloff_mult>
     <lodlight_range_mult>0.816 0.000</lodlight_range_mult>
     <shadow_distance_mult>0.000 0.000</shadow_distance_mult>
+    <lod_mult_lod>0.823 0.000</lod_mult_lod>
+    <lod_mult_slod1>0.971 0.000</lod_mult_slod1>
+    <lod_mult_slod2>1.000 0.000</lod_mult_slod2>
+    <lod_mult_slod3>1.000 0.000</lod_mult_slod3>
+    <lod_mult_slod4>1.000 0.000</lod_mult_slod4>
   </modifier>
   <modifier name="int_Hospital_BlueB" numMods="46" userFlags="0">
     <light_directional_amb_col_r>0.000 1.000</light_directional_amb_col_r>
@@ -2766,7 +2768,7 @@
     <postfx_vignetting_intensity>0.000 0.000</postfx_vignetting_intensity>
     <dir_shadow_num_cascades>3.000 0.000</dir_shadow_num_cascades>
     <dir_shadow_distance_multiplier>0.500 0.000</dir_shadow_distance_multiplier>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <reflection_lod_range_start>0.000 0.000</reflection_lod_range_start>
     <reflection_lod_range_end>5.000 0.000</reflection_lod_range_end>
     <reflection_slod_range_start>5.000 0.000</reflection_slod_range_start>
@@ -2842,7 +2844,7 @@
     <postfx_bright_pass_thresh_width>0.300 0.000</postfx_bright_pass_thresh_width>
     <postfx_bright_pass_thresh>0.300 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>0.800 0.000</postfx_intensity_bloom>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <reflection_lod_range_start>0.000 0.000</reflection_lod_range_start>
     <reflection_lod_range_end>0.000 0.000</reflection_lod_range_end>
     <reflection_slod_range_start>0.000 0.000</reflection_slod_range_start>
@@ -2877,7 +2879,7 @@
     <postfx_bright_pass_thresh_width>0.300 0.000</postfx_bright_pass_thresh_width>
     <postfx_bright_pass_thresh>0.300 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>0.800 0.000</postfx_intensity_bloom>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <reflection_lod_range_start>0.000 0.000</reflection_lod_range_start>
     <reflection_lod_range_end>0.000 0.000</reflection_lod_range_end>
     <reflection_slod_range_start>0.000 0.000</reflection_slod_range_start>
@@ -2968,7 +2970,7 @@
     <postfx_bright_pass_thresh_width>0.700 0.000</postfx_bright_pass_thresh_width>
     <postfx_bright_pass_thresh>0.700 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>0.350 0.000</postfx_intensity_bloom>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <reflection_tweak_interior_amb>10.880 0.000</reflection_tweak_interior_amb>
     <reflection_tweak_exterior_amb>11.392 0.000</reflection_tweak_exterior_amb>
     <reflection_tweak_emissive>12.000 0.000</reflection_tweak_emissive>
@@ -3003,7 +3005,7 @@
     <postfx_intensity_bloom>1.000 0.000</postfx_intensity_bloom>
     <dof_far>130.750 0.000</dof_far>
     <dof_blur_far>0.700 0.000</dof_blur_far>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <fog_hdr>0.000 0.970</fog_hdr>
     <fog_haze_hdr>0.000 0.970</fog_haze_hdr>
     <far_clip>1200.000 1200.000</far_clip>
@@ -3027,12 +3029,12 @@
     <postfx_bright_pass_thresh_width>0.700 0.000</postfx_bright_pass_thresh_width>
     <postfx_bright_pass_thresh>0.700 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>0.350 0.000</postfx_intensity_bloom>
-    <fog_start>130.000 130.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <reflection_lod_range_start>0.000 0.000</reflection_lod_range_start>
     <reflection_lod_range_end>5.000 0.000</reflection_lod_range_end>
     <reflection_slod_range_start>5.000 0.000</reflection_slod_range_start>
     <reflection_slod_range_end>5.000 0.000</reflection_slod_range_end>
-    <reflection_interior_range>70.000 0.000</reflection_interior_range>
+    <reflection_interior_range>50.000 0.000</reflection_interior_range>
     <temperature>20.000 0.000</temperature>
     <natural_ambient_multiplier>0.100 0.000</natural_ambient_multiplier>
     <artificial_int_ambient_multiplier>0.300 0.000</artificial_int_ambient_multiplier>
@@ -3054,7 +3056,7 @@
     <postfx_bright_pass_thresh_width>0.700 0.000</postfx_bright_pass_thresh_width>
     <postfx_bright_pass_thresh>0.700 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>0.350 0.000</postfx_intensity_bloom>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <reflection_lod_range_start>0.000 0.000</reflection_lod_range_start>
     <reflection_lod_range_end>5.000 0.000</reflection_lod_range_end>
     <reflection_slod_range_start>5.000 0.000</reflection_slod_range_start>
@@ -3081,7 +3083,7 @@
     <postfx_bright_pass_thresh_width>0.700 0.000</postfx_bright_pass_thresh_width>
     <postfx_bright_pass_thresh>0.700 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>0.350 0.000</postfx_intensity_bloom>
-    <fog_start>73.000 73.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <reflection_lod_range_start>0.000 0.000</reflection_lod_range_start>
     <reflection_lod_range_end>5.000 0.000</reflection_lod_range_end>
     <reflection_slod_range_start>5.000 0.000</reflection_slod_range_start>
@@ -3105,9 +3107,9 @@
     <ped_light_col_b>0.502 1.000</ped_light_col_b>
     <ped_light_mult>0.100 1.000</ped_light_mult>
     <postfx_bright_pass_thresh_width>0.700 0.000</postfx_bright_pass_thresh_width>
-    <postfx_bright_pass_thresh>1.000 0.000</postfx_bright_pass_thresh>
+    <postfx_bright_pass_thresh>0.700 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>0.350 0.000</postfx_intensity_bloom>
-    <fog_start>130.000 130.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <reflection_lod_range_start>0.000 0.000</reflection_lod_range_start>
     <reflection_lod_range_end>5.000 0.000</reflection_lod_range_end>
     <reflection_slod_range_start>5.000 0.000</reflection_slod_range_start>
@@ -3131,9 +3133,9 @@
     <ped_light_col_b>0.502 1.000</ped_light_col_b>
     <ped_light_mult>0.100 1.000</ped_light_mult>
     <postfx_bright_pass_thresh_width>0.700 0.000</postfx_bright_pass_thresh_width>
-    <postfx_bright_pass_thresh>1.000 0.000</postfx_bright_pass_thresh>
+    <postfx_bright_pass_thresh>0.700 0.000</postfx_bright_pass_thresh>
     <postfx_intensity_bloom>0.350 0.000</postfx_intensity_bloom>
-    <fog_start>130.000 130.000</fog_start>
+    <fog_start>0.000 0.000</fog_start>
     <reflection_lod_range_start>0.000 0.000</reflection_lod_range_start>
     <reflection_lod_range_end>5.000 0.000</reflection_lod_range_end>
     <reflection_slod_range_start>5.000 0.000</reflection_slod_range_start>
@@ -3142,131 +3144,5 @@
     <temperature>20.000 0.000</temperature>
     <natural_ambient_multiplier>0.100 0.000</natural_ambient_multiplier>
     <artificial_int_ambient_multiplier>0.300 0.000</artificial_int_ambient_multiplier>
-  </modifier>
-  <modifier name="AP1_01_C_NoFog" numMods="3" userFlags="0">
-    <fog_density>0.000 50.000</fog_density>
-    <fogray_nearfade>20.000 0.000</fogray_nearfade>
-    <fogray_farfade>200.000 0.000</fogray_farfade>
-  </modifier>
-  <modifier name="AP1_01_B_IntRefRange" numMods="1" userFlags="0">
-    <reflection_interior_range>150.000 0.000</reflection_interior_range>
-  </modifier>
-  <modifier name="rply_saturation" numMods="1" userFlags="0">
-    <postfx_desaturation>4.000 0.000</postfx_desaturation>
-  </modifier>
-  <modifier name="rply_saturation_neg" numMods="1" userFlags="0">
-    <postfx_desaturation>0.000 0.000</postfx_desaturation>
-  </modifier>
-  <modifier name="rply_vignette" numMods="6" userFlags="0">
-    <postfx_vignetting_intensity>1.000 0.000</postfx_vignetting_intensity>
-    <postfx_vignetting_radius>25.000 0.000</postfx_vignetting_radius>
-    <postfx_vignetting_contrast>0.000 0.000</postfx_vignetting_contrast>
-    <postfx_vignetting_col_r>0.000 0.000</postfx_vignetting_col_r>
-    <postfx_vignetting_col_g>0.000 0.000</postfx_vignetting_col_g>
-    <postfx_vignetting_col_b>0.000 0.000</postfx_vignetting_col_b>
-  </modifier>
-  <modifier name="rply_vignette_neg" numMods="6" userFlags="0">
-    <postfx_vignetting_intensity>0.000 0.000</postfx_vignetting_intensity>
-    <postfx_vignetting_radius>0.000 0.000</postfx_vignetting_radius>
-    <postfx_vignetting_contrast>0.000 0.000</postfx_vignetting_contrast>
-    <postfx_vignetting_col_r>0.000 0.000</postfx_vignetting_col_r>
-    <postfx_vignetting_col_g>0.000 0.000</postfx_vignetting_col_g>
-    <postfx_vignetting_col_b>0.000 0.000</postfx_vignetting_col_b>
-  </modifier>
-  <modifier name="rply_contrast" numMods="12" userFlags="0">
-    <postfx_tonemap_filmic_override_dark>1.000 0.000</postfx_tonemap_filmic_override_dark>
-    <postfx_tonemap_filmic_exposure_dark>1.000 0.000</postfx_tonemap_filmic_exposure_dark>
-    <postfx_tonemap_filmic_a>1.000 0.000</postfx_tonemap_filmic_a>
-    <postfx_tonemap_filmic_b>-0.050 0.000</postfx_tonemap_filmic_b>
-    <postfx_tonemap_filmic_c>0.250 0.000</postfx_tonemap_filmic_c>
-    <postfx_tonemap_filmic_d>0.025 0.000</postfx_tonemap_filmic_d>
-    <postfx_tonemap_filmic_override_bright>1.000 0.000</postfx_tonemap_filmic_override_bright>
-    <postfx_tonemap_filmic_exposure_bright>-2.000 0.000</postfx_tonemap_filmic_exposure_bright>
-    <postfx_tonemap_filmic_a_bright>0.150 0.000</postfx_tonemap_filmic_a_bright>
-    <postfx_tonemap_filmic_b_bright>-0.050 0.000</postfx_tonemap_filmic_b_bright>
-    <postfx_tonemap_filmic_c_bright>0.200 0.000</postfx_tonemap_filmic_c_bright>
-    <postfx_tonemap_filmic_d_bright>0.100 0.000</postfx_tonemap_filmic_d_bright>
-  </modifier>
-  <modifier name="rply_contrast_neg" numMods="12" userFlags="0">
-    <postfx_tonemap_filmic_override_dark>1.000 0.000</postfx_tonemap_filmic_override_dark>
-    <postfx_tonemap_filmic_exposure_dark>1.000 0.000</postfx_tonemap_filmic_exposure_dark>
-    <postfx_tonemap_filmic_a>0.100 0.000</postfx_tonemap_filmic_a>
-    <postfx_tonemap_filmic_b>4.000 0.000</postfx_tonemap_filmic_b>
-    <postfx_tonemap_filmic_c>0.050 0.000</postfx_tonemap_filmic_c>
-    <postfx_tonemap_filmic_d>0.100 0.000</postfx_tonemap_filmic_d>
-    <postfx_tonemap_filmic_override_bright>1.000 0.000</postfx_tonemap_filmic_override_bright>
-    <postfx_tonemap_filmic_exposure_bright>-2.000 0.000</postfx_tonemap_filmic_exposure_bright>
-    <postfx_tonemap_filmic_a_bright>0.220 0.000</postfx_tonemap_filmic_a_bright>
-    <postfx_tonemap_filmic_b_bright>1.000 0.000</postfx_tonemap_filmic_b_bright>
-    <postfx_tonemap_filmic_c_bright>0.200 0.000</postfx_tonemap_filmic_c_bright>
-    <postfx_tonemap_filmic_d_bright>0.100 0.000</postfx_tonemap_filmic_d_bright>
-  </modifier>
-  <modifier name="rply_brightness" numMods="1" userFlags="0">
-    <postfx_exposure>2.000 0.000</postfx_exposure>
-  </modifier>
-  <modifier name="rply_brightness_neg" numMods="2" userFlags="0">
-    <postfx_exposure>-2.000 0.000</postfx_exposure>
-    <postfx_exposure_min>-8.000 0.000</postfx_exposure_min>
-  </modifier>
-  <modifier name="rply_motionblur" numMods="1" userFlags="0">
-    <postfx_motionblurlength>1.000 0.000</postfx_motionblurlength>
-  </modifier>
-  <modifier name="V_CIA_Facility" numMods="56" userFlags="0">
-    <light_amb_down_wrap>0.400 0.000</light_amb_down_wrap>
-    <light_artificial_int_down_col_r>0.878 1.000</light_artificial_int_down_col_r>
-    <light_artificial_int_down_col_g>0.992 1.000</light_artificial_int_down_col_g>
-    <light_artificial_int_down_col_b>1.000 1.000</light_artificial_int_down_col_b>
-    <light_artificial_int_down_intensity>0.150 0.000</light_artificial_int_down_intensity>
-    <light_artificial_int_up_col_r>0.851 1.000</light_artificial_int_up_col_r>
-    <light_artificial_int_up_col_g>0.894 1.000</light_artificial_int_up_col_g>
-    <light_artificial_int_up_col_b>0.980 1.000</light_artificial_int_up_col_b>
-    <light_artificial_int_up_intensity>0.150 0.000</light_artificial_int_up_intensity>
-    <ped_light_col_r>0.902 1.000</ped_light_col_r>
-    <ped_light_col_g>0.961 1.000</ped_light_col_g>
-    <ped_light_col_b>0.584 1.000</ped_light_col_b>
-    <ped_light_mult>0.200 1.000</ped_light_mult>
-    <ssao_inten>3.000 0.000</ssao_inten>
-    <light_ped_rim_mult>0.366 0.000</light_ped_rim_mult>
-    <postfx_exposure>-0.500 0.000</postfx_exposure>
-    <postfx_bright_pass_thresh_width>0.700 0.000</postfx_bright_pass_thresh_width>
-    <postfx_bright_pass_thresh>0.700 0.000</postfx_bright_pass_thresh>
-    <postfx_intensity_bloom>1.000 0.000</postfx_intensity_bloom>
-    <water_reflection_lod_range_enabled>0.000 0.000</water_reflection_lod_range_enabled>
-    <water_reflection_lod_range_hd_start>-1.000 0.000</water_reflection_lod_range_hd_start>
-    <water_reflection_lod_range_hd_end>-1.000 0.000</water_reflection_lod_range_hd_end>
-    <water_reflection_lod_range_orphanhd_start>-1.000 0.000</water_reflection_lod_range_orphanhd_start>
-    <water_reflection_lod_range_orphanhd_end>-1.000 0.000</water_reflection_lod_range_orphanhd_end>
-    <water_reflection_lod_range_lod_start>-1.000 0.000</water_reflection_lod_range_lod_start>
-    <water_reflection_lod_range_lod_end>-1.000 0.000</water_reflection_lod_range_lod_end>
-    <water_reflection_lod_range_slod1_start>-1.000 0.000</water_reflection_lod_range_slod1_start>
-    <water_reflection_lod_range_slod1_end>-1.000 0.000</water_reflection_lod_range_slod1_end>
-    <water_reflection_lod_range_slod2_start>-1.000 0.000</water_reflection_lod_range_slod2_start>
-    <water_reflection_lod_range_slod2_end>-1.000 0.000</water_reflection_lod_range_slod2_end>
-    <water_reflection_lod_range_slod3_start>-1.000 0.000</water_reflection_lod_range_slod3_start>
-    <water_reflection_lod_range_slod3_end>-1.000 0.000</water_reflection_lod_range_slod3_end>
-    <water_reflection_lod_range_slod4_start>-1.000 0.000</water_reflection_lod_range_slod4_start>
-    <water_reflection_lod_range_slod4_end>-1.000 0.000</water_reflection_lod_range_slod4_end>
-    <fog_start>73.000 73.000</fog_start>
-    <reflection_lod_range_start>0.000 0.000</reflection_lod_range_start>
-    <reflection_lod_range_end>-1.000 0.000</reflection_lod_range_end>
-    <reflection_slod_range_start>-1.000 0.000</reflection_slod_range_start>
-    <reflection_slod_range_end>-1.000 0.000</reflection_slod_range_end>
-    <reflection_interior_range>20.000 0.000</reflection_interior_range>
-    <reflection_tweak_interior_amb>8.832 0.000</reflection_tweak_interior_amb>
-    <reflection_tweak_emissive>7.424 0.000</reflection_tweak_emissive>
-    <reflection_tweak_directional>0.000 0.000</reflection_tweak_directional>
-    <reflection_hdr_mult>0.500 0.000</reflection_hdr_mult>
-    <far_clip>4000.000 4000.000</far_clip>
-    <temperature>22.000 0.000</temperature>
-    <natural_ambient_multiplier>0.000 0.000</natural_ambient_multiplier>
-    <artificial_int_ambient_multiplier>0.800 0.000</artificial_int_ambient_multiplier>
-    <light_falloff_mult>1.000 0.000</light_falloff_mult>
-    <lodlight_range_mult>0.816 0.000</lodlight_range_mult>
-    <shadow_distance_mult>0.000 0.000</shadow_distance_mult>
-    <lod_mult_lod>0.823 0.000</lod_mult_lod>
-    <lod_mult_slod1>0.971 0.000</lod_mult_slod1>
-    <lod_mult_slod2>1.000 0.000</lod_mult_slod2>
-    <lod_mult_slod3>1.000 0.000</lod_mult_slod3>
-    <lod_mult_slod4>1.000 0.000</lod_mult_slod4>
   </modifier>
 </timecycle_modifier_data>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<HBAO_Parameters>
+  <HBAORelativeStrength value="32.250000" />
+  <CPRelativeStrength value="2.400000" />
+  <HBAORadius0 value="3.730000" />
+  <HBAORadius1 value="4.740000" />
+  <HBAOBlendDistance value="44.500000" />
+  <CPRadius value="2.700000" />
+  <MaxPixels value="92.000000" />
+  <CutoffPixels value="4.800000" />
+  <FoliageStrength value="4.000000" />
+  <HBAOFalloffExponent value="97.000000" />
+  <CPStrengthClose value="1.900000" />
+  <CPBlendDistanceMin value="1.00010" />
+  <CPBlendDistanceMax value="120.000000" />
+</HBAO_Parameters>
