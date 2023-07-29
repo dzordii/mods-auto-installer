@@ -1,36 +1,66 @@
 const fs = require('fs');
 const path = require('path');
+const rimraf = require('rimraf');
 
-function removerArquivo(destino) {
+function removerArquivoOuPasta(destino) {
   try {
     const destinoCompleto = path.resolve(destino);
 
-    fs.unlinkSync(destinoCompleto);
+    if (fs.existsSync(destinoCompleto)) {
+      if (fs.statSync(destinoCompleto).isDirectory()) {
+        rimraf.sync(destinoCompleto); // Remover pasta com rimraf
+      } else {
+        fs.unlinkSync(destinoCompleto); // Remover arquivo
+      }
 
-    console.log(`Arquivo ${destino} removido com sucesso!`);
+      console.log(`Arquivo ou pasta ${destino} removido com sucesso!`);
+    } else {
+      console.log(`Arquivo ou pasta ${destino} não encontrado.`);
+    }
   } catch (error) {
-    console.error(`Erro ao remover o arquivo ${destino}:`, error);
+    console.error(`Erro ao remover o arquivo ou pasta ${destino}:`, error);
   }
 }
 
 function realizarDesinstalacao(desinstalacoes) {
   desinstalacoes.forEach((desinstalacao) => {
     const { destino } = desinstalacao;
-    removerArquivo(destino);
+    removerArquivoOuPasta(destino);
   });
 }
 
 // Exemplo de uso:
 const desinstalacoes = [
   {
-    destino: path.join(process.env.LOCALAPPDATA, 'FiveM', 'FiveM.app', 'mods', 'styles.rpf')
+    destino: path.join(process.env.LOCALAPPDATA, 'FiveM', 'FiveM.app', 'citizen')
   }
-  // {
-  //   destino: path.join(process.env.LOCALAPPDATA, 'FiveM', 'FiveM.app', 'mods', 'outro_arquivo.txt')
-  // }
+  // Adicione outras desinstalações de arquivos ou pastas aqui, se necessário
 ];
 
 realizarDesinstalacao(desinstalacoes);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // O CODIGO ABAIXO DESINSTALA TODOS OS MODS EM FORMATO DE RPF

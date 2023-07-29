@@ -18,5 +18,8 @@
     "rcedit": "^3.0.1",
     "winresourcer": "^0.9.0"
   },
-  "keywords": []
+  "keywords": [],
+  "dependencies": {
+    "rimraf": "^5.0.1"
+  }
 }
