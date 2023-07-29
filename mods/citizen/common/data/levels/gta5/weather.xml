@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- by DZORDI BR v1.0 -->
+<!-- Remasterizado e otimizado para um melhor desempenho -->
+<!-- discord.gg/dzordi -->
+<CContentsOfWeatherXmlFile>
+  <VersionNumber value="1.000000"/>
+  <WeatherTypes>
+	<Item>
+	<Name>EXTRASUNNY</Name>
+  <Sun value="0.0"/>
+	<Cloud value="0.000000"/>
+	<WindMin value="0.0"/>
+	<WindMax value="0.0"/>
+	<Rain value="0.000000"/>
+	<Wetness value="0.000000"/>
+	<Snow value="0.000000"/>
+	<SnowMist value="0.000000"/>
+	<Fog value="0.000000"/>
+    <RippleBumpiness value="0.000000" />
+    <RippleMinBumpiness value="0.000000" />
+    <RippleMaxBumpiness value="0.000000" />
+    <RippleBumpinessWindScale value="0.000000" />
+    <RippleScale value="0.000000" />
+    <RippleSpeed value="00.000000" />
+    <RippleVelocityTransfer value="0.000000" />
+    <OceanBumpiness value="0.000000" />
+    <DeepOceanScale value="0.00000" />
+    <OceanNoiseMinAmplitude value="00.00000" />
+    <OceanWaveAmplitude value="0.000000" />
+    <ShoreWaveAmplitude value="0.000000" />
+    <OceanWaveWindScale value="0.000000" />
+    <ShoreWaveWindScale value="0.000000" />
+    <OceanWaveMinAmplitude value="0.000000" />
+    <ShoreWaveMinAmplitude value="0.000000" />
+    <OceanWaveMaxAmplitude value="00.00000" />
+    <ShoreWaveMaxAmplitude value="0.0000000" />
+    <OceanFoamIntensity value="0.000000" />
+    <OceanFoamScale value="0.000000" />
+    <RippleDisturb value="0.000000" />
+    <Lightning value="false"/>
+	<Sandstorm value="false"/>
+	<OldSettingName>-</OldSettingName>
+	<DropSettingName>-</DropSettingName>
+	<MistSettingName>-</MistSettingName>
+	<GroundSettingName>-</GroundSettingName>
+    <TimeCycleFilename>COMMON:/DATA/TIMECYCLE/W_EXTRASUNNY.XML</TimeCycleFilename>
+	<CloudSettingsName>-</CloudSettingsName>
+  </Item>
+  <Item>
+    <Name>CLEAR</Name>
+    <Sun value="0.0"/>
+    <Cloud value="0.000000"/>
+    <WindMin value="0.0"/>
+    <WindMax value="0.0"/>
+    <Rain value="0.000000"/>
+    <Wetness value="0.000000"/>
+    <Snow value="0.000000"/>
+    <SnowMist value="0.000000"/>
+    <Fog value="0.000000"/>
+      <RippleBumpiness value="0.000000" />
+      <RippleMinBumpiness value="0.000000" />
+      <RippleMaxBumpiness value="0.000000" />
+      <RippleBumpinessWindScale value="0.000000" />
+      <RippleScale value="0.000000" />
+      <RippleSpeed value="00.000000" />
+      <RippleVelocityTransfer value="0.000000" />
+      <OceanBumpiness value="0.000000" />
+      <DeepOceanScale value="0.00000" />
+      <OceanNoiseMinAmplitude value="00.00000" />
+      <OceanWaveAmplitude value="0.000000" />
+      <ShoreWaveAmplitude value="0.000000" />
+      <OceanWaveWindScale value="0.000000" />
+      <ShoreWaveWindScale value="0.000000" />
+      <OceanWaveMinAmplitude value="0.000000" />
+      <ShoreWaveMinAmplitude value="0.000000" />
+      <OceanWaveMaxAmplitude value="00.00000" />
+      <ShoreWaveMaxAmplitude value="0.0000000" />
+      <OceanFoamIntensity value="0.000000" />
+      <OceanFoamScale value="0.000000" />
+      <RippleDisturb value="0.000000" />
+      <Lightning value="false"/>
+    <Sandstorm value="false"/>
+    <OldSettingName>-</OldSettingName>
+    <DropSettingName>-</DropSettingName>
+    <MistSettingName>-</MistSettingName>
+    <GroundSettingName>-</GroundSettingName>
+      <TimeCycleFilename>COMMON:/DATA/TIMECYCLE/W_CLEAR.XML</TimeCycleFilename>
+    <CloudSettingsName>-</CloudSettingsName>
+    </Item>
+  </WeatherTypes>
+  <WeatherCycles>
+    <Item>
+      <CycleName>EXTRASUNNY</CycleName>
+      <TimeMult value="2" />
+    </Item>
+    <Item>
+      <CycleName>CLEAR</CycleName>
+      <TimeMult value="2"/>
+    </Item>
+  </WeatherCycles>
+</CContentsOfWeatherXmlFile>
+<!-- by DZORDI BR v1.0 -->
+<!-- Remasterizado e otimizado para um melhor desempenho -->
+<!-- discord.gg/dzordi -->
