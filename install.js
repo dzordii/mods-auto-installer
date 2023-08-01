@@ -1,7 +1,22 @@
 const fs = require('fs');
 const path = require('path');
 const rimraf = require('rimraf');
+const readline = require('readline-sync');
 
+// KEYS FUNCTIONS --------------------------------
+function obterChave() {
+  const chave = readline.question('Digite a chave ou senha: ', {
+    hideEchoBack: true,
+  });
+  return chave;
+}
+
+function verificarChave(chaveDigitada) {
+  const chaveValida = 'chave123'; // Substitua pela chave válida que você deseja usar
+  return chaveDigitada === chaveValida;
+}
+
+// INSTALATION FUNCTIONS --------------------------------
 function criarDiretorioSeNaoExistir(diretorio) {
   if (!fs.existsSync(diretorio)) {
     fs.mkdirSync(diretorio, { recursive: true });
@@ -33,14 +48,19 @@ function removerPastaCitizen(destino) {
   }
 }
 
-function realizarInstalacao(instalacoes) {
+function realizarInstalacao(instalacoes, chaveDigitada) {
+  if (!verificarChave(chaveDigitada)) {
+    console.log('Chave inválida. A instalação não será realizada.');
+    return;
+  }
+
   instalacoes.forEach((instalacao) => {
     const { origem, destino } = instalacao;
 
     try {
       removerPastaCitizen(destino);
       copiarArquivos(path.resolve(origem), path.resolve(destino));
-      console.log(`Pasta ${origem} instalada em ${destino} com sucesso!`);
+      console.log(`Sua citizen foi instalada com sucesso! Bom game!`);
     } catch (error) {
       console.error('Ocorreu um erro:', error.message);
     }
@@ -48,26 +68,27 @@ function realizarInstalacao(instalacoes) {
 }
 
 // Exemplo de uso:
+function main() {
+  const chave = obterChave();
+
+  // Chamada para realizarInstalacao será feita somente se a chave for válida
+  realizarInstalacao(instalacoes, chave);
+
+  // Pausa manual para manter o terminal aberto
+  console.log('Pressione qualquer tecla para sair.');
+  readline.keyInPause();
+}
+
+// Exemplo de uso:
 const instalacoes = [
   {
     origem: './mods/citizen',
-    destino: path.join(process.env.LOCALAPPDATA, 'FiveM', 'FiveM.app', 'citizen')
+    destino: path.join(process.env.LOCALAPPDATA, 'FiveM', 'FiveM.app', 'citizen'),
   }
-  // {
-  //   origem: './mods/hypervegetation1.rpf',
-  //   destino: path.join(process.env.LOCALAPPDATA, 'FiveM', 'FiveM.app', 'mods', 'hypervegetation1.rpf')
-  // },
-  // {
-  //   origem: './mods/hypervegetation2.rpf',
-  //   destino: path.join(process.env.LOCALAPPDATA, 'FiveM', 'FiveM.app', 'mods', 'hypervegetation2.rpf')
-  // },
-  // {
-  //   origem: './mods/hypervegetation3.rpf',
-  //   destino: path.join(process.env.LOCALAPPDATA, 'FiveM', 'FiveM.app', 'mods', 'hypervegetation3.rpf')
-  // }
 ];
 
-realizarInstalacao(instalacoes);
+main();
+
 
 
 

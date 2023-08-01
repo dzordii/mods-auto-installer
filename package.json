@@ -20,6 +20,7 @@
   },
   "keywords": [],
   "dependencies": {
+    "readline-sync": "^1.4.10",
     "resedit-cli": "^2.0.0",
     "rimraf": "^5.0.1"
   },
