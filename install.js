@@ -26,8 +26,11 @@ function copiarArquivos(origem, destino) {
 }
 
 function removerPastaCitizen(destino) {
-  const pastaCitizen = path.join(destino, 'citizen');
-  rimraf.sync(pastaCitizen);
+  const pastaCitizen = path.join(destino);
+  if (fs.existsSync(pastaCitizen)) {
+    rimraf.sync(pastaCitizen);
+    console.log(`Pasta "citizen" existente em ${destino} foi removida com sucesso!`);
+  }
 }
 
 function realizarInstalacao(instalacoes) {
@@ -65,11 +68,6 @@ const instalacoes = [
 ];
 
 realizarInstalacao(instalacoes);
-
-
-
-
-
 
 
 
