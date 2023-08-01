@@ -80,3 +80,7 @@ realizarInstalacao(instalacoes);
 
 // Comando para criar somente o arquivo de desintalação abaixo:
 // pkg uninstall.js --output uninstall.exe --target win
+
+
+// ESTE COMANDO ABAIXO É ESSENCIAL PARA ALTERAÇÃO DO ICONE
+// npx resedit --in install.exe --out out.exe --icon 1,icon.ico --no-grow
