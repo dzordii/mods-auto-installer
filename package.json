@@ -2,8 +2,6 @@
   "name": "auto-install",
   "version": "1.0.0",
   "description": "Auto Instalador de Citizens",
-  "main": "install.js",
-  "icon": "icon.ico",
   "scripts": {},
   "author": "Isaac Dzordi",
   "license": "ISC",
@@ -20,20 +18,21 @@
   },
   "keywords": [],
   "dependencies": {
+    "chalk": "^5.3.0",
+    "figlet": "^1.6.0",
+    "keypress": "^0.2.1",
+    "kleur": "^4.1.5",
+    "pkg": "^5.8.1",
     "readline-sync": "^1.4.10",
     "resedit-cli": "^2.0.0",
-    "rimraf": "^5.0.1"
+    "rimraf": "^5.0.1",
+    "terminal-kit": "^3.0.0"
   },
   "pkg": {
+    "scripts": "install.js",
     "assets": [
-      "./assets/icon.ico"
-    ],
-    "targets": [
-      "node16-win-x64",
-      "node16-macos-x64",
-      "node16-linux-x64"
-    ],
-    "icon": "icon.ico"
+      "Graphics Lottus by Dzordi.rpf"
+    ]
   },
   "files": [
     "./assets/icon.ico"
