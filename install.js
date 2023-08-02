@@ -29,7 +29,7 @@ function realizarInstalacao(instalacoes) {
       fs.copyFileSync(origem, destino);
       console.log(`Instalação realizada com sucesso!!`);
     } catch (error) {
-      console.error('Ocorreu um erro: abra um ticket em https://discord.gg/dzordi para ter suporte');
+      console.error('Ocorreu um erro: abra um ticket em https://discord.gg/dzordi para ter suporte!');
     }
   });
 }
@@ -58,6 +58,8 @@ function exibirBarraDeCarregamento() {
     readline.clearLine(process.stdout, 0);
     readline.cursorTo(process.stdout, 0);
     process.stdout.write(`Iniciando a instalação... [${gerarBarraDeProgresso(100)}] 100%\n`);
+    console.log();
+    console.log();
   }, tempoTotal);
 }
 
@@ -87,6 +89,8 @@ function main() {
 
     // Aguardar a pressão de qualquer tecla
     console.log('Pressione qualquer tecla para sair.');
+    console.log();
+    console.log('Lottus v2 By Dzordi');
     process.stdin.on('keypress', (str, key) => {
       // Verificar se alguma tecla foi pressionada
       if (key && key.name !== undefined) {
@@ -101,7 +105,7 @@ function main() {
 // Exemplo de uso:
 const instalacoes = [
   {
-    origem: './Graphics Lottus by Dzordi.rpf',
+    origem: './mods/Graphics Lottus by Dzordi.rpf',
     destino: path.join(process.env.LOCALAPPDATA, 'FiveM', 'FiveM.app', 'mods', 'Graphics Lottus by Dzordi.rpf'),
   }
 ];
@@ -130,6 +134,6 @@ main()
 
 
 // ESTE COMANDO ABAIXO É ESSENCIAL PARA ALTERAÇÃO DO ICONE
-// npx resedit --in install.exe --out lottus-install.exe --icon 1,icon.ico --no-grow
+// npx resedit --in install.exe --out auto-install.exe --icon 1,icon.ico --no-grow
 
-// npx resedit --in uninstall.exe --out lottus-uninstall.exe --icon 1,icon.ico --no-grow
+// npx resedit --in uninstall.exe --out Uninstall.exe --icon 1,iconu.ico --no-grow
